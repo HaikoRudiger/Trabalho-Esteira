@@ -1,0 +1,4150 @@
+{
+  "Config": {
+    "Build": {
+      "Board": "arduino:avr:mega:cpu=atmega2560"
+    }
+  },
+  "Units": [
+    {
+      "*": [
+        {
+          "Name": "Arduino",
+          "Width": 176,
+          "Instance": {
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel",
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.InverterBotaoParar.InputPin"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel",
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.InverterBotaoIniciar.InputPin"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel",
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.InverterBotaoReset.InputPin"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.MapRangeVelocidade.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.DigitPins.Pin [3]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                }
+              ]
+            },
+            "Modules": {
+              "*": [
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoWatchdogTimerModule"
+                },
+                {
+                  "+": "TArduinoProcessor2560Module"
+                },
+                {
+                  "+": "TArduino_AVR2560_AnalogInput_Config"
+                }
+              ]
+            },
+            "Serial": {
+              "*": [
+                {
+                  "+": "TArduinoBreakHardwareSerial0"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega1"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega2"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega3"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "+": "TArduinoI2C"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoSPI"
+                }
+              ]
+            },
+            "BoardType": "Arduino Mega 2560",
+            "+": "TArduinoBoard"
+          },
+          "X": 1776,
+          "Height": 2976,
+          "Y": 256,
+          "Type": "Component"
+        },
+        {
+          "Name": "Counter1",
+          "Width": 128,
+          "Instance": {
+            "Min": {
+              "Value": 0
+            },
+            "Max": {
+              "ReachedOutputPin": {
+                "SinkPins": [
+                  {
+                    "ID": "__OpenWireRootUnit__.CounterMinutos.InputPin"
+                  }
+                ]
+              },
+              "Value": 59
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.Digits.Segundos.InputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator1.OutputPin"
+                }
+              ]
+            },
+            "+": "TArduinoCounter"
+          },
+          "X": 688,
+          "Height": 112,
+          "Y": 2784,
+          "Type": "Component"
+        },
+        {
+          "Name": "CounterMinutos",
+          "Width": 128,
+          "Instance": {
+            "Min": {
+              "Value": 0
+            },
+            "Max": {
+              "Value": 59
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.Digits._Item1.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentTempo.Digits.Minutos.InputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Counter1.Max.ReachedOutputPin"
+                }
+              ]
+            },
+            "+": "TArduinoCounter"
+          },
+          "X": 688,
+          "Height": 112,
+          "Y": 2640,
+          "Type": "Component"
+        },
+        {
+          "Name": "PulseGenerator1",
+          "Width": 128,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Counter1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoPulseGenerator",
+            "@": [
+              {
+                "PinName": "Enabled",
+                "@": "Enabled",
+                "+": "TOWBooleanSinkPinBinding",
+                "SourcePin": {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Outputs.Executando.OutputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Outputs._Item0.OutputPin"
+                },
+                "Component": "PulseGenerator1"
+              }
+            ],
+            "Enabled": false
+          },
+          "X": 496,
+          "Height": 48,
+          "Y": 2800,
+          "Type": "Component"
+        },
+        {
+          "Name": "DynamicDisplay7SegmentTempo",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Segundos",
+                  "CountDigits": 2,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.Counter1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                },
+                {
+                  "Name": "Minutos",
+                  "CountDigits": 2,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CounterMinutos.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item69.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 69 ]/AnalogIn[ 15 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item68.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 68 ]/AnalogIn[ 14 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item67.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 67 ]/AnalogIn[ 13 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item66.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 66 ]/AnalogIn[ 12 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item65.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 65 ]/AnalogIn[ 11 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item64.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 64 ]/AnalogIn[ 10 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item63.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 63 ]/AnalogIn[ 9 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item59.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 59 ]/AnalogIn[ 5 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item60.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 60 ]/AnalogIn[ 6 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item61.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 61 ]/AnalogIn[ 7 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item62.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 62 ]/AnalogIn[ 8 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "X": 880,
+          "Height": 256,
+          "Y": 2736,
+          "Type": "Component"
+        },
+        {
+          "Name": "DynamicDisplay7SegmentDist",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.Add1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item49.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 49 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item48.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 48 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item46.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 46 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item47.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 47 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item44.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 44 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item45.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 45 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item42.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 42 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item41.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 41 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item40.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 40 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item43.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 43 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 896,
+          "Height": 240,
+          "Y": 2416,
+          "Type": "Component"
+        },
+        {
+          "Name": "DynamicDisplay7SegmentCalo",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.AnalogToInteger2.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item39.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 39 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item38.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 38 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item37.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 37 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item36.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 36 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item35.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 35 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item34.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 34 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item33.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 33 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item30.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 30 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item31.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 31 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item32.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 32 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 896,
+          "Height": 240,
+          "Y": 2144,
+          "Type": "Component"
+        },
+        {
+          "Name": "DynamicDisplay7SegmentBat",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.RandomUnsignedGenerator1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item29.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 29 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item28.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 28 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item27.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 27 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item26.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 26 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item25.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 25 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item24.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 24 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item23.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 23 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item20.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(I2C-SDA)[ 20 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item21.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(I2C-SCL)[ 21 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item22.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 22 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 896,
+          "Height": 240,
+          "Y": 1856,
+          "Type": "Component"
+        },
+        {
+          "Name": "DynamicDisplay7SegmentVel",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.AnalogToInteger1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item53.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 53 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item52.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-SCK)[ 52 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item51.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-MOSI)[ 51 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item50.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-MISO)[ 50 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item58.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 58 ]/AnalogIn[ 4 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item57.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 57 ]/AnalogIn[ 3 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item56.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 56 ]/AnalogIn[ 2 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item2.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 2 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item15.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(RX3)[ 15 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item55.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 55 ]/AnalogIn[ 1 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 896,
+          "Height": 240,
+          "Y": 1456,
+          "Type": "Component"
+        },
+        {
+          "Name": "RandomUnsignedGenerator1",
+          "Width": 176,
+          "Instance": {
+            "Min": 60,
+            "Max": 115,
+            "ClockInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator2.OutputPin"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentBat.Digits.Integer Display 7 Segments1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoRandomUnsignedGenerator",
+            "Enabled": false,
+            "@": [
+              {
+                "PinName": "Enabled",
+                "@": "Enabled",
+                "+": "TOWBooleanSinkPinBinding",
+                "SourcePin": {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Outputs.Executando.OutputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Outputs._Item0.OutputPin"
+                },
+                "Component": "RandomUnsignedGenerator1"
+              }
+            ]
+          },
+          "X": 656,
+          "Height": 48,
+          "Y": 1920,
+          "Type": "Component"
+        },
+        {
+          "Name": "PulseGenerator2",
+          "Width": 128,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.RandomUnsignedGenerator1.ClockInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoPulseGenerator",
+            "@": [
+              {
+                "PinName": "Enabled",
+                "@": "Enabled",
+                "+": "TOWBooleanSinkPinBinding",
+                "SourcePin": {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Outputs.Executando.OutputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Outputs._Item0.OutputPin"
+                },
+                "Component": "PulseGenerator2"
+              }
+            ],
+            "Enabled": false
+          },
+          "X": 480,
+          "Height": 48,
+          "Y": 1920,
+          "Type": "Component"
+        },
+        {
+          "Name": "MapRangeVelocidade",
+          "Width": 144,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Snapshot1.InputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item54.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 54 ]/AnalogIn[ 0 ].OutputPin"
+              }
+            },
+            "OutputRange": {
+              "Max": 16
+            },
+            "+": "TArduinoMapRange"
+          },
+          "X": 272,
+          "Height": 48,
+          "Y": 1488,
+          "Type": "Component"
+        },
+        {
+          "Name": "AnalogToInteger1",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Snapshot1.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentVel.Digits.Integer Display 7 Segments1.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.DivideByValue1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoFloatToInteger"
+          },
+          "X": 640,
+          "Height": 48,
+          "Y": 1488,
+          "Type": "Component"
+        },
+        {
+          "Name": "DivideByValue1",
+          "Width": 112,
+          "Instance": {
+            "+": "TArduinoIntegerDivideByValue",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.AnalogToInteger1.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Add1.InputPins._Pin0",
+                  "Name": "__OpenWireRootUnit__.Add1.InputPins.Pin [0]"
+                }
+              ]
+            },
+            "Value": 4
+          },
+          "X": 272,
+          "Height": 48,
+          "Y": 1712,
+          "Type": "Component"
+        },
+        {
+          "Name": "Snapshot1",
+          "Width": 128,
+          "Instance": {
+            "SnapshotInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator3.OutputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.MapRangeVelocidade.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.AnalogToInteger1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoAnalogSnapshot"
+          },
+          "X": 480,
+          "Height": 64,
+          "Y": 1488,
+          "Type": "Component"
+        },
+        {
+          "Name": "PulseGenerator3",
+          "Width": 128,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Snapshot1.SnapshotInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoPulseGenerator",
+            "@": [
+              {
+                "PinName": "Enabled",
+                "@": "Enabled",
+                "+": "TOWBooleanSinkPinBinding",
+                "SourcePin": {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Outputs.Executando.OutputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Outputs._Item0.OutputPin"
+                },
+                "Component": "PulseGenerator3"
+              }
+            ],
+            "Enabled": false
+          },
+          "X": 272,
+          "Height": 48,
+          "Y": 1552,
+          "Type": "Component"
+        },
+        {
+          "Name": "Add1",
+          "Width": 112,
+          "Instance": {
+            "InputPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.DivideByValue1.OutputPin"
+                  },
+                  "Type": "ptSink"
+                },
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.Add1.OutputPin"
+                  },
+                  "Type": "ptSink"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Add1.InputPins._Pin1",
+                  "Name": "__OpenWireRootUnit__.Add1.InputPins.Pin [1]"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentDist.Digits.Integer Display 7 Segments1.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.IntegerToAnalog1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoIntegerAdd"
+          },
+          "X": 384,
+          "Height": 96,
+          "Y": 1808,
+          "Type": "Component"
+        },
+        {
+          "Name": "IntegerToAnalog1",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Add1.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DivideByValue3.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoIntegerToFloat"
+          },
+          "X": 256,
+          "Height": 48,
+          "Y": 1952,
+          "Type": "Component"
+        },
+        {
+          "Name": "DivideByValue3",
+          "Width": 112,
+          "Instance": {
+            "+": "TArduinoDivideByValue",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.IntegerToAnalog1.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.MultiplyByValue3.InputPin"
+                }
+              ]
+            },
+            "Value": 1000
+          },
+          "X": 288,
+          "Height": 48,
+          "Y": 2160,
+          "Type": "Component"
+        },
+        {
+          "Name": "MultiplyByValue3",
+          "Width": 128,
+          "Instance": {
+            "+": "TArduinoMultiplyByValue",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.DivideByValue3.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.MultiplyByValue4.InputPin"
+                }
+              ]
+            },
+            "Value": 70
+          },
+          "X": 464,
+          "Height": 48,
+          "Y": 2176,
+          "Type": "Component"
+        },
+        {
+          "Name": "MultiplyByValue4",
+          "Width": 128,
+          "Instance": {
+            "+": "TArduinoMultiplyByValue",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.MultiplyByValue3.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.AnalogToInteger2.InputPin"
+                }
+              ]
+            },
+            "Value": 0.699999988079071
+          },
+          "X": 640,
+          "Height": 48,
+          "Y": 2176,
+          "Type": "Component"
+        },
+        {
+          "Name": "AnalogToInteger2",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.MultiplyByValue4.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.DynamicDisplay7SegmentCalo.Digits.Integer Display 7 Segments1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoFloatToInteger"
+          },
+          "X": 640,
+          "Height": 48,
+          "Y": 2112,
+          "Type": "Component"
+        },
+        {
+          "Name": "InverterBotaoParar",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item3.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 3 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Inputs.PararContinuar.InputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Inputs._Item0.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 80,
+          "Height": 48,
+          "Y": 1168,
+          "Type": "Component"
+        },
+        {
+          "Name": "InverterBotaoIniciar",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item4.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 4 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Inputs.Iniciar.InputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Inputs._Item1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 80,
+          "Height": 48,
+          "Y": 1248,
+          "Type": "Component"
+        },
+        {
+          "Name": "InverterBotaoReset",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item5.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 5 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "Name": "__OpenWireRootUnit__.ControleTresBotoes.Inputs.Reset.InputPin",
+                  "ID": "__OpenWireRootUnit__.ControleTresBotoes.Inputs._Item2.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 80,
+          "Height": 48,
+          "Y": 1328,
+          "Type": "Component"
+        },
+        {
+          "Name": "ControleTresBotoes",
+          "Width": 192,
+          "Instance": {
+            "Members": "bool FAguardandoInicio = true;\r\nbool FExecutando = false;\r\nbool FResetArmado = false;\r\nbool FPararArmado = true;\r\nunsigned long FUltimoParar = 0;\r\nunsigned long FUltimoIniciar = 0;\r\nunsigned long FUltimoReset = 0;",
+            "Inputs": {
+              "*": [
+                {
+                  "Name": "PararContinuar",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.InverterBotaoParar.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoCustomCodeInputDigitalElement",
+                  "OnData": "if( !AValue )\r\n{\r\n  FPararArmado = true;\r\n}\r\nelse if( FPararArmado )\r\n{\r\n  FPararArmado = false;\r\n  if( !FAguardandoInicio )\r\n  {\r\n    unsigned long AAgora = millis();\r\n    if(( AAgora - FUltimoParar >= 80 ) || ( FUltimoParar == 0 ))\r\n    {\r\n      FUltimoParar = AAgora;\r\n      FExecutando = !FExecutando;\r\n      Executando.Send( FExecutando );\r\n    }\r\n  }\r\n}"
+                },
+                {
+                  "Name": "Iniciar",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.InverterBotaoIniciar.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoCustomCodeInputDigitalElement",
+                  "OnData": "if( AValue )\r\n{\r\n  unsigned long AAgora = millis();\r\n  if(( AAgora - FUltimoIniciar >= 80 ) || ( FUltimoIniciar == 0 ))\r\n  {\r\n    FUltimoIniciar = AAgora;\r\n    FAguardandoInicio = false;\r\n    FExecutando = true;\r\n    Executando.Send( true );\r\n  }\r\n}"
+                },
+                {
+                  "Name": "Reset",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.InverterBotaoReset.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoCustomCodeInputDigitalElement",
+                  "OnData": "if( !AValue )\r\n{\r\n  FResetArmado = true;\r\n}\r\nelse if( FResetArmado )\r\n{\r\n  unsigned long AAgora = millis();\r\n  if(( AAgora - FUltimoReset >= 80 ) || ( FUltimoReset == 0 ))\r\n  {\r\n    FResetArmado = false;\r\n    FUltimoReset = AAgora;\r\n    FExecutando = false;\r\n    FAguardandoInicio = true;\r\n    Executando.Send( false );\r\n    delay( 20 );\r\n    asm volatile ( \"jmp 0\" );\r\n  }\r\n}"
+                }
+              ]
+            },
+            "Outputs": {
+              "*": [
+                {
+                  "Name": "Executando",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "Name": "__OpenWireRootUnit__.PulseGenerator1.Enabled",
+                        "ID": "__OpenWireRootUnit__.PulseGenerator1.EnabledInputPin"
+                      },
+                      {
+                        "Name": "__OpenWireRootUnit__.PulseGenerator2.Enabled",
+                        "ID": "__OpenWireRootUnit__.PulseGenerator2.EnabledInputPin"
+                      },
+                      {
+                        "Name": "__OpenWireRootUnit__.PulseGenerator3.Enabled",
+                        "ID": "__OpenWireRootUnit__.PulseGenerator3.EnabledInputPin"
+                      },
+                      {
+                        "Name": "__OpenWireRootUnit__.RandomUnsignedGenerator1.Enabled",
+                        "ID": "__OpenWireRootUnit__.RandomUnsignedGenerator1.EnabledInputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputDigitalElement"
+                }
+              ]
+            },
+            "+": "TArduinoCustomCode",
+            "OnStart": "FAguardandoInicio = true;\r\nFExecutando = false;\r\nExecutando.Send( false );"
+          },
+          "X": 288,
+          "Height": 128,
+          "Y": 1168,
+          "Type": "Component"
+        }
+      ],
+      "Name": "__OpenWireRootUnit__",
+      "Type": "Diagram",
+      "Links": [
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Counter1.Max.ReachedOutputPin",
+            "Y": 2832,
+            "X": 816
+          },
+          "Name": "TOWELink1",
+          "End": {
+            "ID": "CounterMinutos.InputPin",
+            "Y": 2688,
+            "X": 688
+          },
+          "Points": [
+            {
+              "Y": 2832,
+              "X": 832
+            },
+            {
+              "Y": 2768,
+              "X": 832
+            },
+            {
+              "Y": 2768,
+              "X": 672
+            },
+            {
+              "Y": 2688,
+              "X": 672
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PulseGenerator1.OutputPin",
+            "Y": 2832,
+            "X": 624
+          },
+          "Name": "TOWELink2",
+          "End": {
+            "ID": "Counter1.InputPin",
+            "Y": 2832,
+            "X": 688
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Counter1.OutputPin",
+            "Y": 2880,
+            "X": 816
+          },
+          "Name": "TOWELink3",
+          "End": {
+            "ID": "DynamicDisplay7SegmentTempo.Digits._Item0.InputPin",
+            "Y": 2800,
+            "X": 880
+          },
+          "Points": [
+            {
+              "Y": 2880,
+              "X": 848
+            },
+            {
+              "Y": 2800,
+              "X": 848
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "CounterMinutos.OutputPin",
+            "Y": 2736,
+            "X": 816
+          },
+          "Name": "TOWELink4",
+          "End": {
+            "ID": "DynamicDisplay7SegmentTempo.Digits._Item1.InputPin",
+            "Y": 2832,
+            "X": 880
+          },
+          "Points": [
+            {
+              "Y": 2736,
+              "X": 864
+            },
+            {
+              "Y": 2832,
+              "X": 864
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.DigitPins._Pin0",
+            "Y": 2608,
+            "X": 1120
+          },
+          "Name": "TOWELink5",
+          "End": {
+            "ID": "Arduino.Digital._Item41.DigitalInputPin",
+            "Y": 2128,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2608,
+              "X": 1392
+            },
+            {
+              "Y": 2128,
+              "X": 1392
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.DigitPins._Pin1",
+            "Y": 2624,
+            "X": 1120
+          },
+          "Name": "TOWELink6",
+          "End": {
+            "ID": "Arduino.Digital._Item40.DigitalInputPin",
+            "Y": 2096,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2624,
+              "X": 1424
+            },
+            {
+              "Y": 2096,
+              "X": 1424
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.DigitPins._Pin2",
+            "Y": 2640,
+            "X": 1120
+          },
+          "Name": "TOWELink7",
+          "End": {
+            "ID": "Arduino.Digital._Item43.DigitalInputPin",
+            "Y": 2192,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2640,
+              "X": 1408
+            },
+            {
+              "Y": 2192,
+              "X": 1408
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin0",
+            "Y": 2464,
+            "X": 1120
+          },
+          "Name": "TOWELink8",
+          "End": {
+            "ID": "Arduino.Digital._Item49.DigitalInputPin",
+            "Y": 2432,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2464,
+              "X": 1200
+            },
+            {
+              "Y": 2432,
+              "X": 1200
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin1",
+            "Y": 2480,
+            "X": 1120
+          },
+          "Name": "TOWELink9",
+          "End": {
+            "ID": "Arduino.Digital._Item48.DigitalInputPin",
+            "Y": 2400,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2480,
+              "X": 1184
+            },
+            {
+              "Y": 2400,
+              "X": 1184
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin3",
+            "Y": 2512,
+            "X": 1120
+          },
+          "Name": "TOWELink10",
+          "End": {
+            "ID": "Arduino.Digital._Item47.DigitalInputPin",
+            "Y": 2368,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2512,
+              "X": 1232
+            },
+            {
+              "Y": 2368,
+              "X": 1232
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin6",
+            "Y": 2560,
+            "X": 1120
+          },
+          "Name": "TOWELink11",
+          "End": {
+            "ID": "Arduino.Digital._Item42.DigitalInputPin",
+            "Y": 2160,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2560,
+              "X": 1376
+            },
+            {
+              "Y": 2160,
+              "X": 1376
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.DigitPins._Pin0",
+            "Y": 2336,
+            "X": 1120
+          },
+          "Name": "TOWELink12",
+          "End": {
+            "ID": "Arduino.Digital._Item30.DigitalInputPin",
+            "Y": 1776,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2336,
+              "X": 1456
+            },
+            {
+              "Y": 1776,
+              "X": 1456
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.DigitPins._Pin1",
+            "Y": 2352,
+            "X": 1120
+          },
+          "Name": "TOWELink13",
+          "End": {
+            "ID": "Arduino.Digital._Item31.DigitalInputPin",
+            "Y": 1808,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2352,
+              "X": 1440
+            },
+            {
+              "Y": 1808,
+              "X": 1440
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.DigitPins._Pin2",
+            "Y": 2368,
+            "X": 1120
+          },
+          "Name": "TOWELink14",
+          "End": {
+            "ID": "Arduino.Digital._Item32.DigitalInputPin",
+            "Y": 1840,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2368,
+              "X": 1136
+            },
+            {
+              "Y": 2304,
+              "X": 1136
+            },
+            {
+              "Y": 2304,
+              "X": 1232
+            },
+            {
+              "Y": 2016,
+              "X": 1232
+            },
+            {
+              "Y": 2016,
+              "X": 1376
+            },
+            {
+              "Y": 1840,
+              "X": 1376
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin0",
+            "Y": 2192,
+            "X": 1120
+          },
+          "Name": "TOWELink16",
+          "End": {
+            "ID": "Arduino.Digital._Item39.DigitalInputPin",
+            "Y": 2064,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2192,
+              "X": 1216
+            },
+            {
+              "Y": 2064,
+              "X": 1216
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin1",
+            "Y": 2208,
+            "X": 1120
+          },
+          "Name": "TOWELink17",
+          "End": {
+            "ID": "Arduino.Digital._Item38.DigitalInputPin",
+            "Y": 2032,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2208,
+              "X": 1248
+            },
+            {
+              "Y": 2032,
+              "X": 1248
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin2",
+            "Y": 2224,
+            "X": 1120
+          },
+          "Name": "TOWELink18",
+          "End": {
+            "ID": "Arduino.Digital._Item37.DigitalInputPin",
+            "Y": 2000,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2224,
+              "X": 1280
+            },
+            {
+              "Y": 2000,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin3",
+            "Y": 2240,
+            "X": 1120
+          },
+          "Name": "TOWELink19",
+          "End": {
+            "ID": "Arduino.Digital._Item36.DigitalInputPin",
+            "Y": 1968,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2240,
+              "X": 1312
+            },
+            {
+              "Y": 1968,
+              "X": 1312
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin4",
+            "Y": 2256,
+            "X": 1120
+          },
+          "Name": "TOWELink20",
+          "End": {
+            "ID": "Arduino.Digital._Item35.DigitalInputPin",
+            "Y": 1936,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2256,
+              "X": 1328
+            },
+            {
+              "Y": 1936,
+              "X": 1328
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin5",
+            "Y": 2272,
+            "X": 1120
+          },
+          "Name": "TOWELink21",
+          "End": {
+            "ID": "Arduino.Digital._Item34.DigitalInputPin",
+            "Y": 1904,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2272,
+              "X": 1264
+            },
+            {
+              "Y": 1904,
+              "X": 1264
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentCalo.SegmentPins._Pin6",
+            "Y": 2288,
+            "X": 1120
+          },
+          "Name": "TOWELink22",
+          "End": {
+            "ID": "Arduino.Digital._Item33.DigitalInputPin",
+            "Y": 1872,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2288,
+              "X": 1360
+            },
+            {
+              "Y": 1872,
+              "X": 1360
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.DigitPins._Pin0",
+            "Y": 2048,
+            "X": 1120
+          },
+          "Name": "TOWELink23",
+          "End": {
+            "ID": "Arduino.Digital._Item20.DigitalInputPin",
+            "Y": 1456,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2048,
+              "X": 1152
+            },
+            {
+              "Y": 1456,
+              "X": 1152
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.DigitPins._Pin1",
+            "Y": 2064,
+            "X": 1120
+          },
+          "Name": "TOWELink24",
+          "End": {
+            "ID": "Arduino.Digital._Item21.DigitalInputPin",
+            "Y": 1488,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2064,
+              "X": 1168
+            },
+            {
+              "Y": 1488,
+              "X": 1168
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.DigitPins._Pin2",
+            "Y": 2080,
+            "X": 1120
+          },
+          "Name": "TOWELink25",
+          "End": {
+            "ID": "Arduino.Digital._Item22.DigitalInputPin",
+            "Y": 1520,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2080,
+              "X": 1184
+            },
+            {
+              "Y": 1520,
+              "X": 1184
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin0",
+            "Y": 1904,
+            "X": 1120
+          },
+          "Name": "TOWELink26",
+          "End": {
+            "ID": "Arduino.Digital._Item29.DigitalInputPin",
+            "Y": 1744,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1904,
+              "X": 1200
+            },
+            {
+              "Y": 1744,
+              "X": 1200
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin1",
+            "Y": 1920,
+            "X": 1120
+          },
+          "Name": "TOWELink27",
+          "End": {
+            "ID": "Arduino.Digital._Item28.DigitalInputPin",
+            "Y": 1712,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1920,
+              "X": 1216
+            },
+            {
+              "Y": 1712,
+              "X": 1216
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin2",
+            "Y": 1936,
+            "X": 1120
+          },
+          "Name": "TOWELink28",
+          "End": {
+            "ID": "Arduino.Digital._Item27.DigitalInputPin",
+            "Y": 1680,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1936,
+              "X": 1248
+            },
+            {
+              "Y": 1680,
+              "X": 1248
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin3",
+            "Y": 1952,
+            "X": 1120
+          },
+          "Name": "TOWELink29",
+          "End": {
+            "ID": "Arduino.Digital._Item26.DigitalInputPin",
+            "Y": 1648,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1952,
+              "X": 1280
+            },
+            {
+              "Y": 1648,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin4",
+            "Y": 1968,
+            "X": 1120
+          },
+          "Name": "TOWELink30",
+          "End": {
+            "ID": "Arduino.Digital._Item25.DigitalInputPin",
+            "Y": 1616,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1968,
+              "X": 1296
+            },
+            {
+              "Y": 1616,
+              "X": 1296
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin5",
+            "Y": 1984,
+            "X": 1120
+          },
+          "Name": "TOWELink31",
+          "End": {
+            "ID": "Arduino.Digital._Item24.DigitalInputPin",
+            "Y": 1584,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1984,
+              "X": 1344
+            },
+            {
+              "Y": 1584,
+              "X": 1344
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentBat.SegmentPins._Pin6",
+            "Y": 2000,
+            "X": 1120
+          },
+          "Name": "TOWELink32",
+          "End": {
+            "ID": "Arduino.Digital._Item23.DigitalInputPin",
+            "Y": 1552,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2000,
+              "X": 1232
+            },
+            {
+              "Y": 1664,
+              "X": 1232
+            },
+            {
+              "Y": 1664,
+              "X": 1248
+            },
+            {
+              "Y": 1600,
+              "X": 1248
+            },
+            {
+              "Y": 1600,
+              "X": 1296
+            },
+            {
+              "Y": 1552,
+              "X": 1296
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.DigitPins._Pin0",
+            "Y": 1648,
+            "X": 1120
+          },
+          "Name": "TOWELink33",
+          "End": {
+            "ID": "Arduino.Digital._Item2.DigitalInputPin",
+            "Y": 688,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1648,
+              "X": 1136
+            },
+            {
+              "Y": 688,
+              "X": 1136
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.DigitPins._Pin1",
+            "Y": 1664,
+            "X": 1120
+          },
+          "Name": "TOWELink34",
+          "End": {
+            "ID": "Arduino.Digital._Item15.DigitalInputPin",
+            "Y": 1296,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1664,
+              "X": 1216
+            },
+            {
+              "Y": 1632,
+              "X": 1216
+            },
+            {
+              "Y": 1632,
+              "X": 1280
+            },
+            {
+              "Y": 1296,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin0",
+            "Y": 1504,
+            "X": 1120
+          },
+          "Name": "TOWELink35",
+          "End": {
+            "ID": "Arduino.Digital._Item53.DigitalInputPin",
+            "Y": 2560,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1504,
+              "X": 1152
+            },
+            {
+              "Y": 1520,
+              "X": 1152
+            },
+            {
+              "Y": 1520,
+              "X": 1200
+            },
+            {
+              "Y": 1568,
+              "X": 1200
+            },
+            {
+              "Y": 1568,
+              "X": 1216
+            },
+            {
+              "Y": 1616,
+              "X": 1216
+            },
+            {
+              "Y": 1616,
+              "X": 1264
+            },
+            {
+              "Y": 1728,
+              "X": 1264
+            },
+            {
+              "Y": 1728,
+              "X": 1536
+            },
+            {
+              "Y": 2560,
+              "X": 1536
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin1",
+            "Y": 1520,
+            "X": 1120
+          },
+          "Name": "TOWELink36",
+          "End": {
+            "ID": "Arduino.Digital._Item52.DigitalInputPin",
+            "Y": 2528,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1520,
+              "X": 1136
+            },
+            {
+              "Y": 1504,
+              "X": 1136
+            },
+            {
+              "Y": 1504,
+              "X": 1184
+            },
+            {
+              "Y": 1472,
+              "X": 1184
+            },
+            {
+              "Y": 1472,
+              "X": 1520
+            },
+            {
+              "Y": 1664,
+              "X": 1520
+            },
+            {
+              "Y": 1664,
+              "X": 1504
+            },
+            {
+              "Y": 2528,
+              "X": 1504
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin2",
+            "Y": 1536,
+            "X": 1120
+          },
+          "Name": "TOWELink37",
+          "End": {
+            "ID": "Arduino.Digital._Item51.DigitalInputPin",
+            "Y": 2496,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1536,
+              "X": 1200
+            },
+            {
+              "Y": 1504,
+              "X": 1200
+            },
+            {
+              "Y": 1504,
+              "X": 1488
+            },
+            {
+              "Y": 2496,
+              "X": 1488
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin3",
+            "Y": 1552,
+            "X": 1120
+          },
+          "Name": "TOWELink38",
+          "End": {
+            "ID": "Arduino.Digital._Item50.DigitalInputPin",
+            "Y": 2464,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1552,
+              "X": 1216
+            },
+            {
+              "Y": 1536,
+              "X": 1216
+            },
+            {
+              "Y": 1536,
+              "X": 1312
+            },
+            {
+              "Y": 1856,
+              "X": 1312
+            },
+            {
+              "Y": 1856,
+              "X": 1472
+            },
+            {
+              "Y": 2464,
+              "X": 1472
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "RandomUnsignedGenerator1.OutputPin",
+            "Y": 1952,
+            "X": 832
+          },
+          "Name": "TOWELink39",
+          "End": {
+            "ID": "DynamicDisplay7SegmentBat.Digits._Item0.InputPin",
+            "Y": 1920,
+            "X": 896
+          },
+          "Points": [
+            {
+              "Y": 1952,
+              "X": 864
+            },
+            {
+              "Y": 1920,
+              "X": 864
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PulseGenerator2.OutputPin",
+            "Y": 1952,
+            "X": 608
+          },
+          "Name": "TOWELink40",
+          "End": {
+            "ID": "RandomUnsignedGenerator1.ClockInputPin",
+            "Y": 1952,
+            "X": 656
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AnalogToInteger1.OutputPin",
+            "Y": 1520,
+            "X": 768
+          },
+          "Name": "TOWELink42",
+          "End": {
+            "ID": "DynamicDisplay7SegmentVel.Digits._Item0.InputPin",
+            "Y": 1520,
+            "X": 896
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin0",
+            "Y": 2784,
+            "X": 1104
+          },
+          "Name": "TOWELink49",
+          "End": {
+            "ID": "Arduino.Digital._Item69.DigitalInputPin",
+            "Y": 3072,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2784,
+              "X": 1184
+            },
+            {
+              "Y": 3072,
+              "X": 1184
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin1",
+            "Y": 2800,
+            "X": 1104
+          },
+          "Name": "TOWELink50",
+          "End": {
+            "ID": "Arduino.Digital._Item68.DigitalInputPin",
+            "Y": 3040,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2800,
+              "X": 1120
+            },
+            {
+              "Y": 3040,
+              "X": 1120
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin2",
+            "Y": 2816,
+            "X": 1104
+          },
+          "Name": "TOWELink51",
+          "End": {
+            "ID": "Arduino.Digital._Item67.DigitalInputPin",
+            "Y": 3008,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2816,
+              "X": 1152
+            },
+            {
+              "Y": 3008,
+              "X": 1152
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin3",
+            "Y": 2832,
+            "X": 1104
+          },
+          "Name": "TOWELink52",
+          "End": {
+            "ID": "Arduino.Digital._Item66.DigitalInputPin",
+            "Y": 2976,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2832,
+              "X": 1296
+            },
+            {
+              "Y": 2976,
+              "X": 1296
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin4",
+            "Y": 2848,
+            "X": 1104
+          },
+          "Name": "TOWELink53",
+          "End": {
+            "ID": "Arduino.Digital._Item65.DigitalInputPin",
+            "Y": 2944,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2848,
+              "X": 1248
+            },
+            {
+              "Y": 2944,
+              "X": 1248
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin5",
+            "Y": 2864,
+            "X": 1104
+          },
+          "Name": "TOWELink54",
+          "End": {
+            "ID": "Arduino.Digital._Item64.DigitalInputPin",
+            "Y": 2912,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2864,
+              "X": 1136
+            },
+            {
+              "Y": 2912,
+              "X": 1136
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.SegmentPins._Pin6",
+            "Y": 2880,
+            "X": 1104
+          },
+          "Name": "TOWELink55",
+          "End": {
+            "ID": "Arduino.Digital._Item63.DigitalInputPin",
+            "Y": 2880,
+            "X": 1776
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.DigitPins._Pin3",
+            "Y": 2976,
+            "X": 1104
+          },
+          "Name": "TOWELink56",
+          "End": {
+            "ID": "Arduino.Digital._Item62.DigitalInputPin",
+            "Y": 2848,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2976,
+              "X": 1280
+            },
+            {
+              "Y": 2848,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.DigitPins._Pin2",
+            "Y": 2960,
+            "X": 1104
+          },
+          "Name": "TOWELink57",
+          "End": {
+            "ID": "Arduino.Digital._Item61.DigitalInputPin",
+            "Y": 2816,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2960,
+              "X": 1264
+            },
+            {
+              "Y": 2816,
+              "X": 1264
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.DigitPins._Pin1",
+            "Y": 2944,
+            "X": 1104
+          },
+          "Name": "TOWELink58",
+          "End": {
+            "ID": "Arduino.Digital._Item60.DigitalInputPin",
+            "Y": 2784,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2944,
+              "X": 1232
+            },
+            {
+              "Y": 2784,
+              "X": 1232
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentTempo.DigitPins._Pin0",
+            "Y": 2928,
+            "X": 1104
+          },
+          "Name": "TOWELink59",
+          "End": {
+            "ID": "Arduino.Digital._Item59.DigitalInputPin",
+            "Y": 2752,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2928,
+              "X": 1216
+            },
+            {
+              "Y": 2752,
+              "X": 1216
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin4",
+            "Y": 1568,
+            "X": 1120
+          },
+          "Name": "TOWELink60",
+          "End": {
+            "ID": "Arduino.Digital._Item58.DigitalInputPin",
+            "Y": 2720,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1568,
+              "X": 1216
+            },
+            {
+              "Y": 1536,
+              "X": 1216
+            },
+            {
+              "Y": 1536,
+              "X": 1232
+            },
+            {
+              "Y": 1568,
+              "X": 1232
+            },
+            {
+              "Y": 1568,
+              "X": 1600
+            },
+            {
+              "Y": 1888,
+              "X": 1600
+            },
+            {
+              "Y": 1888,
+              "X": 1584
+            },
+            {
+              "Y": 2720,
+              "X": 1584
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin5",
+            "Y": 1584,
+            "X": 1120
+          },
+          "Name": "TOWELink61",
+          "End": {
+            "ID": "Arduino.Digital._Item57.DigitalInputPin",
+            "Y": 2688,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1584,
+              "X": 1328
+            },
+            {
+              "Y": 1600,
+              "X": 1328
+            },
+            {
+              "Y": 1600,
+              "X": 1552
+            },
+            {
+              "Y": 2688,
+              "X": 1552
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.SegmentPins._Pin6",
+            "Y": 1600,
+            "X": 1120
+          },
+          "Name": "TOWELink62",
+          "End": {
+            "ID": "Arduino.Digital._Item56.DigitalInputPin",
+            "Y": 2656,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1600,
+              "X": 1200
+            },
+            {
+              "Y": 1696,
+              "X": 1200
+            },
+            {
+              "Y": 1696,
+              "X": 1520
+            },
+            {
+              "Y": 2656,
+              "X": 1520
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentVel.DigitPins._Pin2",
+            "Y": 1680,
+            "X": 1120
+          },
+          "Name": "TOWELink63",
+          "End": {
+            "ID": "Arduino.Digital._Item55.DigitalInputPin",
+            "Y": 2624,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 1680,
+              "X": 1136
+            },
+            {
+              "Y": 1712,
+              "X": 1136
+            },
+            {
+              "Y": 1712,
+              "X": 1120
+            },
+            {
+              "Y": 1776,
+              "X": 1120
+            },
+            {
+              "Y": 1776,
+              "X": 848
+            },
+            {
+              "Y": 2224,
+              "X": 848
+            },
+            {
+              "Y": 2224,
+              "X": 832
+            },
+            {
+              "Y": 2688,
+              "X": 832
+            },
+            {
+              "Y": 2688,
+              "X": 1440
+            },
+            {
+              "Y": 2624,
+              "X": 1440
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item54.OutputPin",
+            "Y": 2592,
+            "X": 1952
+          },
+          "Name": "TOWELink64",
+          "End": {
+            "ID": "MapRangeVelocidade.InputPin",
+            "Y": 1520,
+            "X": 272
+          },
+          "Points": [
+            {
+              "Y": 2592,
+              "X": 2048
+            },
+            {
+              "Y": 3312,
+              "X": 2048
+            },
+            {
+              "Y": 3312,
+              "X": 1760
+            },
+            {
+              "Y": 3232,
+              "X": 1760
+            },
+            {
+              "Y": 3232,
+              "X": 144
+            },
+            {
+              "Y": 1520,
+              "X": 144
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin2",
+            "Y": 2496,
+            "X": 1120
+          },
+          "Name": "TOWELink65",
+          "End": {
+            "ID": "Arduino.Digital._Item46.DigitalInputPin",
+            "Y": 2320,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2496,
+              "X": 1216
+            },
+            {
+              "Y": 2320,
+              "X": 1216
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin5",
+            "Y": 2544,
+            "X": 1120
+          },
+          "Name": "TOWELink66",
+          "End": {
+            "ID": "Arduino.Digital._Item45.DigitalInputPin",
+            "Y": 2272,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2544,
+              "X": 1296
+            },
+            {
+              "Y": 2272,
+              "X": 1296
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DynamicDisplay7SegmentDist.SegmentPins._Pin4",
+            "Y": 2528,
+            "X": 1120
+          },
+          "Name": "TOWELink67",
+          "End": {
+            "ID": "Arduino.Digital._Item44.DigitalInputPin",
+            "Y": 2224,
+            "X": 1776
+          },
+          "Points": [
+            {
+              "Y": 2528,
+              "X": 1344
+            },
+            {
+              "Y": 2224,
+              "X": 1344
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "MapRangeVelocidade.OutputPin",
+            "Y": 1520,
+            "X": 416
+          },
+          "Name": "TOWELink46",
+          "End": {
+            "ID": "Snapshot1.InputPin",
+            "Y": 1520,
+            "X": 480
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Snapshot1.OutputPin",
+            "Y": 1520,
+            "X": 608
+          },
+          "Name": "TOWELink41",
+          "End": {
+            "ID": "AnalogToInteger1.InputPin",
+            "Y": 1520,
+            "X": 640
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AnalogToInteger1.OutputPin",
+            "Y": 1520,
+            "X": 768
+          },
+          "Name": "TOWELink43",
+          "End": {
+            "ID": "DivideByValue1.InputPin",
+            "Y": 1744,
+            "X": 272
+          },
+          "Points": [
+            {
+              "Y": 1520,
+              "X": 784
+            },
+            {
+              "Y": 1648,
+              "X": 784
+            },
+            {
+              "Y": 1648,
+              "X": 256
+            },
+            {
+              "Y": 1744,
+              "X": 256
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PulseGenerator3.OutputPin",
+            "Y": 1584,
+            "X": 400
+          },
+          "Name": "TOWELink69",
+          "End": {
+            "ID": "Snapshot1.SnapshotInputPin",
+            "Y": 1536,
+            "X": 480
+          },
+          "Points": [
+            {
+              "Y": 1584,
+              "X": 432
+            },
+            {
+              "Y": 1536,
+              "X": 432
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Add1.OutputPin",
+            "Y": 1840,
+            "X": 496
+          },
+          "Name": "TOWELink44",
+          "End": {
+            "ID": "Add1.InputPins._Pin1",
+            "Y": 1872,
+            "X": 384
+          },
+          "Points": [
+            {
+              "Y": 1840,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 352
+            },
+            {
+              "Y": 1872,
+              "X": 352
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DivideByValue1.OutputPin",
+            "Y": 1744,
+            "X": 384
+          },
+          "Name": "TOWELink45",
+          "End": {
+            "ID": "Add1.InputPins._Pin0",
+            "Y": 1856,
+            "X": 384
+          },
+          "Points": [
+            {
+              "Y": 1744,
+              "X": 400
+            },
+            {
+              "Y": 1776,
+              "X": 400
+            },
+            {
+              "Y": 1776,
+              "X": 368
+            },
+            {
+              "Y": 1856,
+              "X": 368
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Add1.OutputPin",
+            "Y": 1840,
+            "X": 496
+          },
+          "Name": "TOWELink47",
+          "End": {
+            "ID": "DynamicDisplay7SegmentDist.Digits._Item0.InputPin",
+            "Y": 2480,
+            "X": 896
+          },
+          "Points": [
+            {
+              "Y": 1840,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 352
+            },
+            {
+              "Y": 1872,
+              "X": 352
+            },
+            {
+              "Y": 1872,
+              "X": 176
+            },
+            {
+              "Y": 2480,
+              "X": 176
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Add1.OutputPin",
+            "Y": 1840,
+            "X": 496
+          },
+          "Name": "TOWELink48",
+          "End": {
+            "ID": "IntegerToAnalog1.InputPin",
+            "Y": 1984,
+            "X": 256
+          },
+          "Points": [
+            {
+              "Y": 1840,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 512
+            },
+            {
+              "Y": 1792,
+              "X": 352
+            },
+            {
+              "Y": 1872,
+              "X": 352
+            },
+            {
+              "Y": 1872,
+              "X": 176
+            },
+            {
+              "Y": 1984,
+              "X": 176
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "IntegerToAnalog1.OutputPin",
+            "Y": 1984,
+            "X": 384
+          },
+          "Name": "TOWELink71",
+          "End": {
+            "ID": "DivideByValue3.InputPin",
+            "Y": 2192,
+            "X": 288
+          },
+          "Points": [
+            {
+              "Y": 1984,
+              "X": 400
+            },
+            {
+              "Y": 2080,
+              "X": 400
+            },
+            {
+              "Y": 2080,
+              "X": 272
+            },
+            {
+              "Y": 2192,
+              "X": 272
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DivideByValue3.OutputPin",
+            "Y": 2192,
+            "X": 400
+          },
+          "Name": "TOWELink15",
+          "End": {
+            "ID": "MultiplyByValue3.InputPin",
+            "Y": 2208,
+            "X": 464
+          },
+          "Points": [
+            {
+              "Y": 2192,
+              "X": 416
+            },
+            {
+              "Y": 2208,
+              "X": 416
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "MultiplyByValue3.OutputPin",
+            "Y": 2208,
+            "X": 592
+          },
+          "Name": "TOWELink72",
+          "End": {
+            "ID": "MultiplyByValue4.InputPin",
+            "Y": 2208,
+            "X": 640
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "MultiplyByValue4.OutputPin",
+            "Y": 2208,
+            "X": 768
+          },
+          "Name": "TOWELink73",
+          "End": {
+            "ID": "AnalogToInteger2.InputPin",
+            "Y": 2144,
+            "X": 640
+          },
+          "Points": [
+            {
+              "Y": 2208,
+              "X": 800
+            },
+            {
+              "Y": 2304,
+              "X": 800
+            },
+            {
+              "Y": 2304,
+              "X": 624
+            },
+            {
+              "Y": 2144,
+              "X": 624
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AnalogToInteger2.OutputPin",
+            "Y": 2144,
+            "X": 768
+          },
+          "Name": "TOWELink68",
+          "End": {
+            "ID": "DynamicDisplay7SegmentCalo.Digits._Item0.InputPin",
+            "Y": 2208,
+            "X": 896
+          },
+          "Points": [
+            {
+              "Y": 2144,
+              "X": 832
+            },
+            {
+              "Y": 2208,
+              "X": 832
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item3.OutputPin",
+            "Y": 720,
+            "X": 1952
+          },
+          "Name": "TOWELink74",
+          "End": {
+            "ID": "InverterBotaoParar.InputPin",
+            "Y": 1232,
+            "X": 80
+          },
+          "Points": [
+            {
+              "Y": 720,
+              "X": 2016
+            },
+            {
+              "Y": 3360,
+              "X": 2016
+            },
+            {
+              "Y": 3360,
+              "X": 48
+            },
+            {
+              "Y": 1232,
+              "X": 48
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "InverterBotaoParar.OutputPin",
+            "Y": 1200,
+            "X": 208
+          },
+          "Name": "TOWELink90",
+          "End": {
+            "ID": "ControleTresBotoes.Inputs._Item0.InputPin",
+            "Y": 1200,
+            "X": 288
+          },
+          "Points": [
+            {
+              "Y": 1200,
+              "X": 248
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item4.OutputPin",
+            "Y": 752,
+            "X": 1952
+          },
+          "Name": "TOWELink91",
+          "End": {
+            "ID": "InverterBotaoIniciar.InputPin",
+            "Y": 1280,
+            "X": 80
+          },
+          "Points": [
+            {
+              "Y": 752,
+              "X": 2032
+            },
+            {
+              "Y": 3392,
+              "X": 2032
+            },
+            {
+              "Y": 3392,
+              "X": 32
+            },
+            {
+              "Y": 1280,
+              "X": 32
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "InverterBotaoIniciar.OutputPin",
+            "Y": 1280,
+            "X": 208
+          },
+          "Name": "TOWELink92",
+          "End": {
+            "ID": "ControleTresBotoes.Inputs._Item1.InputPin",
+            "Y": 1216,
+            "X": 288
+          },
+          "Points": [
+            {
+              "Y": 1280,
+              "X": 232
+            },
+            {
+              "Y": 1216,
+              "X": 232
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item5.OutputPin",
+            "Y": 784,
+            "X": 1952
+          },
+          "Name": "TOWELink93",
+          "End": {
+            "ID": "InverterBotaoReset.InputPin",
+            "Y": 1360,
+            "X": 80
+          },
+          "Points": [
+            {
+              "Y": 784,
+              "X": 2048
+            },
+            {
+              "Y": 3424,
+              "X": 2048
+            },
+            {
+              "Y": 3424,
+              "X": 16
+            },
+            {
+              "Y": 1360,
+              "X": 16
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "InverterBotaoReset.OutputPin",
+            "Y": 1360,
+            "X": 208
+          },
+          "Name": "TOWELink94",
+          "End": {
+            "ID": "ControleTresBotoes.Inputs._Item2.InputPin",
+            "Y": 1232,
+            "X": 288
+          },
+          "Points": [
+            {
+              "Y": 1360,
+              "X": 216
+            },
+            {
+              "Y": 1232,
+              "X": 216
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ControleTresBotoes.Outputs._Item0.OutputPin",
+            "Y": 1280,
+            "X": 480
+          },
+          "Name": "TOWELink95",
+          "End": {
+            "ID": "PulseGenerator3.EnabledInputPin",
+            "Y": 1568,
+            "X": 272
+          },
+          "Points": [
+            {
+              "Y": 1280,
+              "X": 496
+            },
+            {
+              "Y": 1328,
+              "X": 496
+            },
+            {
+              "Y": 1328,
+              "X": 256
+            },
+            {
+              "Y": 1568,
+              "X": 256
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ControleTresBotoes.Outputs._Item0.OutputPin",
+            "Y": 1280,
+            "X": 480
+          },
+          "Name": "TOWELink96",
+          "End": {
+            "ID": "PulseGenerator2.EnabledInputPin",
+            "Y": 1936,
+            "X": 480
+          },
+          "Points": [
+            {
+              "Y": 1280,
+              "X": 512
+            },
+            {
+              "Y": 1888,
+              "X": 512
+            },
+            {
+              "Y": 1936,
+              "X": 448
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ControleTresBotoes.Outputs._Item0.OutputPin",
+            "Y": 1280,
+            "X": 480
+          },
+          "Name": "TOWELink97",
+          "End": {
+            "ID": "RandomUnsignedGenerator1.EnabledInputPin",
+            "Y": 1936,
+            "X": 656
+          },
+          "Points": [
+            {
+              "Y": 1280,
+              "X": 528
+            },
+            {
+              "Y": 1904,
+              "X": 528
+            },
+            {
+              "Y": 1904,
+              "X": 640
+            },
+            {
+              "Y": 1936,
+              "X": 640
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ControleTresBotoes.Outputs._Item0.OutputPin",
+            "Y": 1280,
+            "X": 480
+          },
+          "Name": "TOWELink98",
+          "End": {
+            "ID": "PulseGenerator1.EnabledInputPin",
+            "Y": 2816,
+            "X": 496
+          },
+          "Points": [
+            {
+              "Y": 1280,
+              "X": 544
+            },
+            {
+              "Y": 2816,
+              "X": 544
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Version": "2",
+  "Content": "OpenWire Diagram",
+  "Product": "Visuino Pro - Visual Arduino Programming"
+}
